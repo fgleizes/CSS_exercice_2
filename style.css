@@ -6,22 +6,18 @@ body {
 }
 header {
   height: 2rem;
-  /**** Si on utilise flexbox : ****/
-  display: flex;
 }
 header nav:first-child {
   width: 80%;
   height: 100%;
   background-color: rgb(0, 213, 107);
-  /* Si on n'utilise pas flexbox */
-  /* float: left; */
+  float: left;
 }
 header nav:nth-child(2) {
   width: 20%;
   height: 100%;
   background-color: rgb(0, 125, 191);
-  /* Si on n'utilise pas flexbox */
-  /* float: right; */
+  float: right;
 }
 aside {
   width: 30%;
@@ -33,49 +29,36 @@ section {
   width: 70%;
   height: 6rem;
   float: right;
-  /**** Si on utilise flexbox : ****/
-  display: flex;
-  flex-wrap: wrap;
 }
-/* Si on n'utilise pas flexbox */
-/* Pour supprimer les white-space verticaux des éléments inline-block */
-/* section article {
-  vertical-align: bottom;
-} */
 section article:first-child {
   background-color: rgb(243, 122, 0);
   width: 50%;
   height: 50%;
-  /* Si on n'utilise pas flexbox */
-  /* display: inline-block; */
+  float: left;
 }
 section article:nth-child(2) {
   background-color: rgb(146, 166, 167);
   width: 50%;
   height: 50%;
-  /* Si on n'utilise pas flexbox */
-  /* display: inline-block; */
+  float: right;
 }
 section article:nth-child(3) {
   background-color: rgb(254, 155, 0);
   width: 33.33%;
   height: 50%;
-  /* Si on n'utilise pas flexbox */
-  /* display: inline-block; */
+  float: left;
 }
 section article:nth-child(4) {
   background-color: rgb(0, 165, 134);
   width: 33.33%;
   height: 50%;
-  /* Si on n'utilise pas flexbox */
-  /* display: inline-block; */
+  float: left;
 }
 section article:nth-child(5) {
   background-color: rgb(255, 73, 0);
   width: 33.33%;
   height: 50%;
-  /* Si on n'utilise pas flexbox */
-  /* display: inline-block; */
+  float: right;
 }
 footer {
   height: 8rem;
